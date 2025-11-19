@@ -1,7 +1,6 @@
 # 🚀 DevOps CI/CD + Kubernetes – ASIR (Producto 2)
 
 Este repositorio contiene el proyecto completo del módulo **FP.050 – DevOps y Cloud Computing**, incluyendo:
-
 - Pipeline CI/CD con **Jenkins**
 - Despliegue automático desde **GitHub**
 - Multi-branch pipeline (main / preprod)
@@ -10,7 +9,7 @@ Este repositorio contiene el proyecto completo del módulo **FP.050 – DevOps y
 - Servicio en **alta disponibilidad** con réplicas + LoadBalancer
 - yaml de despliegue completo
 
-## 📁 Estructura del repositorio
+## Estructura del repositorio
 
 ```
 Devops-CICD-Kubernetes-ASIR/
@@ -26,20 +25,20 @@ Devops-CICD-Kubernetes-ASIR/
     └── Producto2_FP050.pdf
 ```
 
-## ▶️ Pipeline
+## Pipeline
 
 - Build
 - Push (si se usa registry)
 - Deploy automático según rama
 - Integración con GitHub Webhook
 
-## 🌐 Kubernetes
+## Kubernetes
 
 - Deployment con **3 réplicas**
 - Service tipo **LoadBalancer**
 - Probes configurados (liveness / readiness)
 
-## 🧪 Test de balanceo
+## Test de balanceo
 
 En `scripts/test_loadbalancer.sh` se incluye un bucle curl para verificar distribución entre pods.
 
